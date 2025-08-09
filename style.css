@@ -1,0 +1,168 @@
+img {
+    width: 310px;
+    margin: -30px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.hero-section {
+    padding: 130px 0 50px;    
+    
+}
+
+.hero-section .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px; 
+    margin: 0 auto;
+    width: 
+
+}
+
+.form {
+    background: white;
+    padding: 20px;  
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(240, 236, 236);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+    width: 350px;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input {
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 92%;
+    border: 1px solid rgb(214, 204, 204);
+    
+
+}
+.button-one {
+    background: rgb(98, 98, 248);
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+.button-two {
+    background: rgb(15, 177, 15);
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 13px;
+    border: none;
+    width: 190px;
+    margin-top: 12px;
+    cursor: pointer;
+    
+}
+
+.button-one:hover {
+    background: rgb(119, 119, 245);
+} 
+
+.button-two:hover {
+    background: rgb(26, 153, 26);
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.create {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+body {
+    background: rgb(247, 248, 249);
+}
+
+.line {
+    background: rgb(221, 208, 208);
+    height: 0.5px;
+    width: 100%;
+}
+
+.crt {
+    font-weight: bold;
+    color: black;
+    padding-right: 3px ;
+}
+
+.forget-pwd {
+    font-size: 14px;
+    color: blue;
+    margin-bottom: 7px;
+}
+
+.left {
+    margin: 0;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* responsiveness on 900px & below */
+
+@media (max-width: 900px) {
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .left {
+        width: 400px;
+        text-align: center;
+        align-items: center;
+
+    }
+    .right {
+        margin-top: 20px;
+    }
+
+    .hero-section {
+        margin-top: -70px;
+    }
+
+    .form {
+        gap: 15px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+    
+}
